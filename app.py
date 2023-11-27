@@ -30,4 +30,5 @@ def analyze():
                            h1=h1, h2=h2, h3=h3, h4=h4, Q=Q, W=W, cop=cop, ideal_cop=ideal_cop)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+
