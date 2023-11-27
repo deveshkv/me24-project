@@ -1,0 +1,6 @@
+T2 = float(input("Enter the value for Condenser temperature T2 (outlet): "))
+T3 = float(input("Enter the value for Evaporator temperature T3 (inlet): "))
+T4 = float(input("Enter the value for Evaporator temperature T4 (outlet): "))
+P1 = float(input("Enter the value for Suction pressure Ps: "))
+P2 = float(input("Enter the value for Discharge pressure Pd: "))
+T5 = float(input("Enter the value for Inside temperature of cabin T5: "))
